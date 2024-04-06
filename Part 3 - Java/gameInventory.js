@@ -7,7 +7,7 @@
 totalValue = 0
 totalProfit = 0
 
-// FETCH and READ the people.json disk file
+// FETCH and READ the gameinventory.json disk file
 fetch('./gameinventory.json')
   .then(response => response.json())
   .then(data => {
